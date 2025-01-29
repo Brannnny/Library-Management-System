@@ -1,14 +1,12 @@
-# Library-Management-System
-Library Management System
-
+## Library-Management-System
 
 __[LinkedIn](https://www.linkedin.com/in/brown-ekeledo)__
 
-Overview
+### Overview
 
 The Library Management System is a Python-based application designed to manage a library's operations more effectively. It is an interactive portal meant to automate all processes and provide excellent user experience. It is intended to overcome the restrictiveness, or lack thereof of brick-and-mortar institutions, providing boundless access to a wider reading audience. This system is purely online and as such the features will reflect the desire of this project to meaningfully impact its community of users. The target user is anyone intent on learning, especially those who by circumstance are or may find themselves in book deserts.
 
-Features
+### Features
 
 •	Book Management: Add, update, delete, and search books by title, author, or ISBN.
 
@@ -20,7 +18,7 @@ Features
 
 •	Database Integration: use a document-based database (MongoDB) for persistent storage of variety of media.
 
-Installation
+### Installation
 
 1.	Clone the repository:
 bash
@@ -41,14 +39,14 @@ Requirements
 •	MongoDB (or your preferred database)
 •	Dependencies listed in requirements.txt 
 
-Usage
+### Usage
 1.	Add Books: Add new books to the library catalog.
 2.	Register Users: Register new members and assign them unique IDs.
 3.	Issue Books: Issue books to users by specifying the user ID and book ID.
 4.	Return Books: Mark books as returned and calculate fines for overdue returns.
 5.	View Reports: Generate lists of issued books, available books, or user histories.
 
-Folder Structure
+### Folder Structure
 
 perl
 
@@ -84,7 +82,7 @@ library-management-system/
 
 └── README.md  # Documentation
 
-Contributions
+### Contributions
 
 Contributions are encouraged! Please follow these steps:
 1.	Fork the repository.
@@ -93,13 +91,13 @@ Contributions are encouraged! Please follow these steps:
 4.	Push to the branch (git push origin feature-name).
 5.	Open a pull request.
 
-TECHNOLOGY STACK
+### Technology Stack
 
 1.	Front-end: NodeJS
 2.	Backend: Python
 3.	Database: MongoDB
 4.	AWS EC2
 
-License
+### License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
